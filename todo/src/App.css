@@ -1,0 +1,59 @@
+.App{
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  height: 100vh;
+}
+.title{
+  height: 50px;
+  width: 340px;
+  border-radius: 15px;
+  background-color: rgb(248, 249, 209);
+  padding: 3px;
+  display: flex;
+  align-items: center;
+}
+.Container {
+  padding: 20px;
+  width: 350px;
+  height: 570px;
+  box-shadow: rgb(0 0 0 / 20%) 0 0 20px;
+  margin: auto;
+  background-color: white;
+  border-radius: 15px;
+}
+.todo-box{
+  height: 220px;
+  width: 340px;
+  background-color: beige;
+  padding: 5px;
+  margin: 15px auto 15px auto;
+  border-radius: 15px;
+  overflow: scroll;
+  box-shadow: rgb(0 0 0 / 20%) 0 0 -20px;
+}
+.item-box{
+  width: 300px;
+  height: 30px;
+  border-bottom: 1px dotted #ccc;
+  margin: 1px;
+  box-shadow: rgb(0 0 0 / 20%) 0 0 -20px;
+}
+.Xbtn{
+  color: #fff;
+  border: none;
+  padding: 5px 9px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
+.calendar-box{
+  height: 220px;
+  width: 340px;
+  background-color: rgb(253, 223, 228);
+  padding: 5px;
+  border-radius: 15px;
+  margin: 15px auto 15px auto;
+}
